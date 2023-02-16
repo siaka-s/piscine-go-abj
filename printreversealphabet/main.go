@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	for i := 'a'; i <= 'z'; i++ {
+	for i := 'z'; i >= 'a'; i-- {
 
 		fmt.Printf(string(i))
 	}
